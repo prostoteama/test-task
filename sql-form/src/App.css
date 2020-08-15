@@ -1,10 +1,17 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: space-between;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.Checkboxes {
+  margin: 16px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
