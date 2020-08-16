@@ -39,7 +39,7 @@ class App extends React.Component {
   addProduct = _ => {
     (this.state.checkboxes.length > 0) ? 
     this.state.checkboxes.map(({id}) => 
-      fetch(`http://localhost:4000/products/add?id=${id}`)
+      fetch(`http://localhost:4000/orders/add?id=${id}`)
       .then(() => console.log ( '%c%s', 'color: green;', 'product added' ))
       .catch(err => console.error(err))  
     ): 
